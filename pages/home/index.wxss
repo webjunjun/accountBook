@@ -1,0 +1,51 @@
+page{
+    background-color: #fafbfd;
+}
+.home-top{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20rpx;
+    display: flex;
+}
+.ht-item{
+    flex: 1;
+}
+.ht-item-title{
+    font-size: 11px;
+    font-weight: lighter;
+    margin-bottom: 20rpx;
+}
+.ht-item-money{
+    font-weight: bold;
+}
+.rotate-triangle .weui-icon{
+    transform: rotateZ(90deg);
+}
+/* 记账列表 */
+.day-top,.day-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20rpx;
+}
+.dt-txt{
+    display: inline-block;
+}
+.dt-margin-left{
+    margin-left: 24rpx;
+}
+.db-left{
+    display: flex;
+    justify-content: space-between;
+}
+.db-icon{
+    width: 80rpx;
+    height: 80rpx;
+    background-color: #ccc;
+    margin-right: 10rpx;
+}
+.db-right{
+    font-size: 20px;
+    font-weight: bold;
+}

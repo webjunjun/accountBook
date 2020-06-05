@@ -1,0 +1,54 @@
+<view>
+    <!-- 首页顶部 -->
+    <view class="bg-purple color-white home-top">
+        <view class="ht-item">
+            <view class="ht-item-title">2019</view>
+            <view class="ht-item-bottom">
+                <text class="ht-item-money">10</text>
+                <text class="ht-item-title">月</text>
+                <mp-icon class="rotate-triangle" type="field" icon="play" color="#fff" size="10"></mp-icon>
+            </view>
+        </view>
+        <view class="ht-item">
+            <view class="ht-item-title">收入</view>
+            <view class="ht-item-bottom">
+                <text class="font11">￥</text>
+                <text class="ht-item-money">689.00</text>
+            </view>
+        </view>
+        <view class="ht-item">
+            <view class="ht-item-title">支出</view>
+            <view class="ht-item-bottom">
+                <text class="font11">￥</text>
+                <text class="ht-item-money">236.00</text>
+            </view>
+        </view>
+    </view>
+    <!-- 记账列表 -->
+    <view class="day-wrap">
+        <view class="day-top color-green">
+            <view class="dt-left">
+                <view class="dt-txt font11">10月20日</view>
+                <view class="dt-txt font11 dt-margin-left">周日</view>
+            </view>
+            <view class="dt-right">
+                <view class="dt-txt font11">支出: 36.00</view>
+                <view class="dt-txt font11 dt-margin-left">收入: 3.20</view>
+            </view>
+        </view>
+        <view class="day-bottom">
+            <view class="day-content" wx:for="{{list}}" wx:key="*this">
+                <view class="db-left">
+                    <view class="db-icon">
+                        <mp-icon></mp-icon>
+                    </view>
+                    <view class="db-box">
+                        <view class="font15 color-purple">餐饮</view>
+                        <view class="font11 color-green">健身餐</view>
+                    </view>
+                </view>
+                <view class="db-right {{item.type === 'income' ? 'color-green' : 'color-purple'}}">-36.00</view>
+            </view>
+        </view>
+    </view>
+</view>

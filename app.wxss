@@ -1,0 +1,46 @@
+/* 背景色 */
+.bg-purple{
+    background-color: #3a3a62;
+}
+.bg-blue{
+    background-color: #b693fe;
+}
+.bg-green{
+    background-color: #24c489;
+}
+.bg-orange{
+    background-color: #e7b150;
+}
+/* 字体颜色 */
+.color-white{
+    color: #fff;
+}
+.color-purple{
+    color: #3a3a62;
+}
+.color-blue{
+    color: #b693fe;
+}
+.color-green{
+    color: #24c489;
+}
+.color-orange{
+    color: #e7b150;
+}
+/* 字体 */
+page{
+    font-size: 15px;
+    line-height: 1;
+}
+.font20{
+    font-size: 20px;
+}
+.font15{
+    font-size: 15px;
+}
+.font11{
+    font-size: 11px;
+}
+.font9{
+    font-size: 9px;
+}

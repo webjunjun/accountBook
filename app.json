@@ -1,0 +1,22 @@
+{
+    "pages": [
+        "pages/home/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarTitleText": "记账",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "@bgColor",
+        "backgroundColorTop": "@bgColor",
+        "backgroundColorBottom": "@bgColor",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50
+    },
+    "style": "v2",
+    "useExtendedLib": {
+        "weui": true
+    },
+    "sitemapLocation": "sitemap.json",
+    "darkmode": true,
+    "themeLocation": "theme.json"
+}
