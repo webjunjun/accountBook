@@ -50,5 +50,8 @@
                 <view class="db-right {{item.type === 'income' ? 'color-green' : 'color-purple'}}">-36.00</view>
             </view>
         </view>
+        <view class="container" style="height: 300px;">
+            <f2 class="f2-chart" onInit="{{onInitChart}}" />
+        </view>
     </view>
 </view>
