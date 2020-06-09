@@ -38,6 +38,13 @@ Page({
         const res = wx.getSystemInfoSync();
         console.log(res);
     },
+    onShow() {
+        if (typeof this.getTabBar === 'function' && this.getTabBar()) {
+            this.getTabBar().setData({
+                selected: 1
+            });
+        }
+    },
     onPullDownRefresh: function() {
         // 触发下拉刷新时执行
     },

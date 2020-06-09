@@ -38,18 +38,25 @@ Page({
             return chart;
         }
     },
-    onLoad: function(options) {
+    onLoad(options) {
         // 页面创建时执行
         const res = wx.getSystemInfoSync();
         console.log(res);
     },
-    onPullDownRefresh: function() {
+    onShow() {
+        if (typeof this.getTabBar === 'function' && this.getTabBar()) {
+            this.getTabBar().setData({
+                selected: 0
+            });
+        }
+    },
+    onPullDownRefresh() {
         // 触发下拉刷新时执行
     },
-    onReachBottom: function() {
+    onReachBottom() {
         // 页面触底时执行
     },
-    onShareAppMessage: function () {
+    onShareAppMessage() {
         // 页面被用户分享时执行
     },
     // 普通事件绑定

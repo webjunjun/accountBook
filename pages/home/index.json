@@ -1,4 +1,5 @@
 {
+    "navigationBarTitleText": "首页",
     "usingComponents": {
         "mp-icon": "/miniprogram_npm/weui-miniprogram/icon/icon"
     }
