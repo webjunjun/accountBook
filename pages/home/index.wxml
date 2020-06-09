@@ -37,18 +37,20 @@
             </view>
         </view>
         <view class="day-bottom">
-            <view class="day-content" wx:for="{{list}}" wx:key="*this">
-                <view class="db-left">
-                    <view class="db-icon">
-                        <mp-icon></mp-icon>
+            <mp-slideview wx:for="{{list}}" wx:key="*this" buttons="{{slideButtons}}">
+                <view class="day-content">
+                    <view class="db-left">
+                        <view class="db-icon">
+                            <mp-icon></mp-icon>
+                        </view>
+                        <view class="db-box">
+                            <view class="font15 color-purple">餐饮</view>
+                            <view class="font11 color-green">健身餐</view>
+                        </view>
                     </view>
-                    <view class="db-box">
-                        <view class="font15 color-purple">餐饮</view>
-                        <view class="font11 color-green">健身餐</view>
-                    </view>
+                    <view class="db-right {{item.type === 'income' ? 'color-green' : 'color-purple'}}">-36.00</view>
                 </view>
-                <view class="db-right {{item.type === 'income' ? 'color-green' : 'color-purple'}}">-36.00</view>
-            </view>
+            </mp-slideview>
         </view>
     </view>
 </view>

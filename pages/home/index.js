@@ -2,6 +2,12 @@
 const app = getApp();
 Page({
     data: {
+        slideButtons: [{
+            text: '修改'
+        },{
+            type: 'warn',
+            text: '删除'
+        }],
         list: [{
             type: 'income'
         }, {
