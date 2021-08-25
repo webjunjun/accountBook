@@ -1,0 +1,71 @@
+.mine_main .min_top{
+    width: 100%;
+    height: 300rpx;
+    position: relative;
+}
+/* 头像、昵称 */
+.min_top .avatar_statistics{
+    position: absolute;
+    left: 30rpx;
+    top: 140rpx;
+    width: calc(100% - 60rpx);
+    background-color: #fff;
+    border-radius: 16rpx;
+    box-shadow: 0px 4px 5px rgba(201, 201, 201, .5);
+}
+.avatar_statistics .avatar_box{
+    position: absolute;
+    top: -80rpx;
+    left: 0rpx;
+    width: 100%;
+    text-align: center;
+}
+.avatar_box .avatar_pic{
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 6rpx solid #fff;
+    margin: 0 auto;
+}
+.avatar_box .nickname{
+    display: inline-block;
+    margin-top: 20rpx;
+}
+/* 打卡、记账 */
+.statistics_box{
+    margin-top: 200rpx;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.cate_num{
+    margin-top: 20rpx;
+    padding-bottom: 30rpx;
+}
+/* 底部菜单列表 */
+.mine_main .min_bottom{
+    margin-top: 200rpx;
+}
+.min_bottom .setting_list{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 30rpx;
+}
+.setting_list .setting_item{
+    display: flex;
+    padding: 30rpx 0rpx;
+    border-bottom: 1rpx solid rgb(201, 201, 201, .5);
+}
+.setting_list .setting_item:last-child{
+    border-bottom: none;
+}
+.setting_item .setting_left image{
+    width: 60rpx;
+    height: 60rpx;
+    background-color: #c9c9c9;
+    margin-right: 20rpx;
+}
+.setting_item .setting_right{
+    line-height: 60rpx;
+}

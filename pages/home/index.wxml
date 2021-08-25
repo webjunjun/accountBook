@@ -1,6 +1,6 @@
 <view>
     <!-- 首页顶部 -->
-    <view class="bg-purple color-white home-top">
+    <view class="bg-red color-white home-top">
         <view class="ht-item">
             <view class="ht-item-title">2019</view>
             <view class="ht-item-bottom">
@@ -12,14 +12,14 @@
         <view class="ht-item">
             <view class="ht-item-title">收入</view>
             <view class="ht-item-bottom">
-                <text class="font11">￥</text>
+                <text class="font12">￥</text>
                 <text class="ht-item-money">689.00</text>
             </view>
         </view>
         <view class="ht-item">
             <view class="ht-item-title">支出</view>
             <view class="ht-item-bottom">
-                <text class="font11">￥</text>
+                <text class="font12">￥</text>
                 <text class="ht-item-money">236.00</text>
             </view>
         </view>
@@ -28,12 +28,12 @@
     <view class="day-wrap">
         <view class="day-top color-green">
             <view class="dt-left">
-                <view class="dt-txt font11">10月20日</view>
-                <view class="dt-txt font11 dt-margin-left">周日</view>
+                <view class="dt-txt font12">10月20日</view>
+                <view class="dt-txt font12 dt-margin-left">周日</view>
             </view>
             <view class="dt-right">
-                <view class="dt-txt font11">支出: 36.00</view>
-                <view class="dt-txt font11 dt-margin-left">收入: 3.20</view>
+                <view class="dt-txt font12">支出: 36.00</view>
+                <view class="dt-txt font12 dt-margin-left">收入: 3.20</view>
             </view>
         </view>
         <view class="day-bottom">
@@ -44,8 +44,8 @@
                             <mp-icon></mp-icon>
                         </view>
                         <view class="db-box">
-                            <view class="font15 color-purple">餐饮</view>
-                            <view class="font11 color-green">健身餐</view>
+                            <view class="font16 color-purple">餐饮</view>
+                            <view class="font12 color-green">健身餐</view>
                         </view>
                     </view>
                     <view class="db-right {{item.type === 'income' ? 'color-green' : 'color-purple'}}">-36.00</view>

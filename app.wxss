@@ -1,6 +1,6 @@
 /* 背景色 */
-.bg-purple{
-    background-color: #3a3a62;
+.bg-red{
+    background-color: #fb6463;
 }
 .bg-blue{
     background-color: #b693fe;
@@ -11,9 +11,18 @@
 .bg-orange{
     background-color: #e7b150;
 }
+.bg-linear{
+    background: linear-gradient(135deg, #fbb663 , #fb6463);
+}
 /* 字体颜色 */
 .color-white{
     color: #fff;
+}
+.color-balck{
+    color: #333;
+}
+.color-gray{
+    color: #999;
 }
 .color-purple{
     color: #3a3a62;
@@ -29,18 +38,29 @@
 }
 /* 字体 */
 page{
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1;
+    padding-bottom: 48px;
 }
 .font20{
     font-size: 20px;
 }
-.font15{
-    font-size: 15px;
+.font16{
+    font-size: 16px;
 }
-.font11{
-    font-size: 11px;
+.font14{
+    font-size: 14px;
 }
-.font9{
-    font-size: 9px;
+.font12{
+    font-size: 12px;
+}
+/* 字体粗细 */
+.fontBold{
+    font-weight: bold;
+}
+.fontBolder{
+    font-weight: bolder;
+}
+.fontLighter{
+    font-weight: lighter;
 }

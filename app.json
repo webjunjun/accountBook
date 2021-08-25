@@ -40,7 +40,7 @@
         "navigationBarBackgroundColor": "@bgColor",
         "backgroundColorTop": "@bgColor",
         "backgroundColorBottom": "@bgColor",
-        "enablePullDownRefresh": true,
+        "enablePullDownRefresh": false,
         "onReachBottomDistance": 50
     },
     "style": "v2",
