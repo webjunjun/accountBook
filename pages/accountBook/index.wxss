@@ -11,8 +11,6 @@ page{
     flex: 1;
 }
 .ht-item-title{
-    font-size: 11px;
-    font-weight: lighter;
     margin-bottom: 20rpx;
 }
 .ht-item-money{
@@ -28,6 +26,9 @@ page{
     width: 100%;
     box-sizing: border-box;
     padding: 0 20rpx;
+}
+.day-top{
+    margin: 10rpx 0rpx;
 }
 .dt-txt{
     display: inline-block;
@@ -48,4 +49,19 @@ page{
 .db-right{
     font-size: 20px;
     font-weight: bold;
+    line-height: 80rpx;
+}
+.remark-txt{
+    margin-top: 18rpx;
+}
+.day-bottom{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0rpx 30rpx;
+    border-top: 1rpx solid rgb(201, 201, 201, .5);
+}
+.day-content{
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+    border-bottom: 1rpx solid rgb(201, 201, 201, .5);
 }
