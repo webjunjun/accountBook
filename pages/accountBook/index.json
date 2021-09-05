@@ -1,5 +1,5 @@
 {
-    "navigationBarTitleText": "首页",
+    "navigationBarTitleText": "我的账单",
     "usingComponents": {
         "mp-icon": "/miniprogram_npm/weui-miniprogram/icon/icon",
         "mp-cells": "/miniprogram_npm/weui-miniprogram/cells/cells",

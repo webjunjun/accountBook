@@ -1,5 +1,5 @@
 <view>
     <view class="container" style="height: 300px;">
-        <f2 class="f2-chart" onInit="{{onInitChart}}" />
+        <f2 class="f2-chart" id="f2-line" onInit="{{onInitChart}}" />
     </view>
 </view>

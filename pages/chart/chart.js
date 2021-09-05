@@ -1,5 +1,6 @@
 "use strict";
 const app = getApp();
+import F2 from '@antv/wx-f2'; // 注：也可以不引入，initChart方法已经将F2传入，如果需要引入，注意需要安装@antv/wx-f2依赖
 Page({
     data: {
         onInitChart(F2, config) {
@@ -36,7 +37,7 @@ Page({
     onLoad: function(options) {
         // 页面创建时执行
         const res = wx.getSystemInfoSync();
-        console.log(res);
+        console.log(F2);
     },
     onShow() {
         if (typeof this.getTabBar === 'function' && this.getTabBar()) {
